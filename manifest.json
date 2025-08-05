@@ -1,0 +1,19 @@
+{
+  "lang": "en-US",
+  "name": "[Roblox] Nordsüdbahn",
+  "short_name": "[DB]aNordsüdbahn Rbx",
+  "description": "Your all-in-one scheduled app",
+  "start_url": "/Nordsuedbahn/",
+  "background_color": "#ffffff",
+  "theme_color": "#121212",
+  "orientation": "any",
+  "display": "standalone",
+  "icons": [
+  {
+    "src": "/Nordsuedbahn/icon512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }
+]
+
+}

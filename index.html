@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="manifest" href="manifest.json">
+  <title>[DB] Nordsüdbahn</title>
+</head>
+
+<body>
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/Nordsuedbahn/sw.js')
+      .then(() => console.log("Service Worker registered"))
+      .catch(err => console.error("SW registration failed:", err));
+  }
+</script>
+  <script src="sw.js"></script>
+</body>
+
+</html>
