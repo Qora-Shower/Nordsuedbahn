@@ -1,4 +1,4 @@
-const CACHE_NAME = "[DB] Nordsüdbahn-V1";
+const CACHE_NAME = "[DB] Nordsüdbahn-V2";
 const BASE = "/Nordsuedbahn/";
 
 self.addEventListener('install', (event) => {
