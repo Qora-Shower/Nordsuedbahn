@@ -5,7 +5,7 @@
   "description": "Your all-in-one scheduled app",
   "start_url": "/Nordsuedbahn/",
   "background_color": "#ffffff",
-  "theme_color": "#121212",
+  "theme_color": "#ffffff",
   "orientation": "any",
   "display": "standalone",
   "icons": [
