@@ -5,13 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.css">
   
   <link rel="manifest" href="manifest.json">
   <title>[DB] Nordsüdbahn</title>
 </head>
 
 <body>
+  <div class="cont">
+    <div id="loginRoblox" class="btn login" onclick="loginWithRoblox()">Sign in with Roblox</div>
+    <div class="btn gast">join as guest</div>
+  </div>
+  
   <script>
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/Nordsuedbahn/sw.js')
